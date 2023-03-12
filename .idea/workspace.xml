@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ae72f4-ac44-40d1-948b-37856fd0bcdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cobench.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bench/DummyBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bench/IBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logging/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logging/ILogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testbench/Testbench.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timing/ITimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timing/Timer.java" afterDir="false" />
+    <list default="true" id="f1ae72f4-ac44-40d1-948b-37856fd0bcdc" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/DummyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/DummyBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/IBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/IBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logging/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/FileLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logging/ILogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ILogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/Testbench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/Testbench.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timing/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timing/Timer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,11 +61,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678098346762</updated>
-      <workItem from="1678098348129" duration="2981000" />
+      <workItem from="1678098348129" duration="3913000" />
+      <workItem from="1678177666821" duration="6169000" />
+      <workItem from="1678283113358" duration="41000" />
+      <workItem from="1678643260658" duration="4162000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1678101461740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678101461740</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

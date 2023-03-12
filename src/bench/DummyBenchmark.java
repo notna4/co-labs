@@ -10,7 +10,11 @@ public class DummyBenchmark implements IBenchmark {
     @Override
     public void run() {
         Arrays.sort(arr);
-
+//        try {
+//            Thread.sleep(2000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
 //        for(int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i] + ", ");
 //        }
@@ -26,7 +30,7 @@ public class DummyBenchmark implements IBenchmark {
         Random rand = new Random();
         arr = new int[size];
         for(int i = 0; i < size; i++) {
-            arr[i] = rand.nextInt(50);
+            arr[i] = rand.nextInt(1000);
         }
     }
 

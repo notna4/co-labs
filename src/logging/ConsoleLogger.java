@@ -15,11 +15,45 @@ public class ConsoleLogger implements ILogger {
 
     @Override
     public void write(Object ... values) {
-        for (Object val : values) {
-            System.out.print(val);
-            System.out.print(" ");
+        if(values[values.length-1] == "micros") {
+            for(int i = 0; i < values.length-1; i++) {
+                if(values[i].getClass().getName() == "java.lang.Long") {
+                    System.out.print(convertNanoTo("micros", (Long)values[i]) + " ");
+                }
+                else {
+                    System.out.print(values[i] + " ");
+                }
+            }
+            System.out.println("micros.");
         }
-        System.out.print("\n");
+        else if(values[values.length-1] == "s") {
+            for(int i = 0; i < values.length-1; i++) {
+                if(values[i].getClass().getName() == "java.lang.Long") {
+                    System.out.print(convertNanoTo("s", (Long)values[i]) + " ");
+                }
+                else {
+                    System.out.print(values[i] + " ");
+                }
+            }
+            System.out.println("seconds.");
+        }
+        else if(values[values.length-1] == "ns") {
+            for(int i = 0; i < values.length-1; i++) {
+                System.out.print(values[i] + " ");
+            }
+            System.out.println("ns.");
+        }
+    }
+
+    @Override
+    public long convertNanoTo(String dest, long nano) {
+        if(dest == "micros") {
+            return nano/1000;
+        }
+        else if(dest == "s") {
+            return nano/1000000000;
+        }
+        return -1;
     }
 
     @Override
