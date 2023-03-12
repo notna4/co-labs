@@ -1,0 +1,120 @@
+Finished in 2005513800 ns  
+Offset 1002745800  
+ 
+ 
+ 
+ 
+Finished in class java.lang.String2001039500 class java.lang.Longns class java.lang.String 
+ 
+Finished in java.lang.String
+2007509400 java.lang.Long
+ns java.lang.String
+ 
+ 
+Finished in java.lang.String
+2013724700 java.lang.Long
+ns java.lang.String
+ 
+ 
+Finished in java.lang.String
+2015583200 java.lang.Long
+ns java.lang.String
+ 
+ 
+Finished in java.lang.String
+2015736000 java.lang.Long
+ns java.lang.String
+ 
+ 
+Finished in 2006987 ns  
+ 
+2007296 micros. 
+ 
+Finished in 2007691 micros. 
+Finished in 2 seconds. 
+Finished in 2007691900 ns. 
+ 
+Finished in 2002028 micros. 
+Finished in 2 seconds. 
+Finished in 2002028500 ns. 
+ 
+Finished in 5142317 micros. 
+Finished in 5 seconds. 
+Finished in 5142317700 ns. 
+ 
+Run 0: 610200 ns. 
+Run 0: 0 seconds. 
+Run 1: 96700 ns. 
+Run 1: 0 seconds. 
+Run 2: 32900 ns. 
+Run 2: 0 seconds. 
+Run 3: 38300 ns. 
+Run 3: 0 seconds. 
+Run 4: 37900 ns. 
+Run 4: 0 seconds. 
+Run 5: 33900 ns. 
+Run 5: 0 seconds. 
+Run 6: 38600 ns. 
+Run 6: 0 seconds. 
+Run 7: 69600 ns. 
+Run 7: 0 seconds. 
+Run 8: 80000 ns. 
+Run 8: 0 seconds. 
+Run 9: 104600 ns. 
+Run 9: 0 seconds. 
+Run 10: 90500 ns. 
+Run 10: 0 seconds. 
+Run 11: 120200 ns. 
+Run 11: 0 seconds. 
+Finished in 1643600 ns. 
+Finished in 0 seconds. 
+Run 0: 4589858200 ns. 
+Run 0: 4 seconds. 
+
+
+Run 1: 5096056000 ns. 
+Run 1: 5 seconds. 
+
+
+Run 2: 4490360600 ns. 
+Run 2: 4 seconds. 
+
+
+Run 3: 4067320200 ns. 
+Run 3: 4 seconds. 
+
+
+Run 4: 4141121200 ns. 
+Run 4: 4 seconds. 
+
+
+Run 5: 4177497000 ns. 
+Run 5: 4 seconds. 
+
+
+Run 6: 4280969900 ns. 
+Run 6: 4 seconds. 
+
+
+Run 7: 4253670300 ns. 
+Run 7: 4 seconds. 
+
+
+Run 8: 4223622000 ns. 
+Run 8: 4 seconds. 
+
+
+Run 9: 4615445700 ns. 
+Run 9: 4 seconds. 
+
+
+Run 10: 4181260200 ns. 
+Run 10: 4 seconds. 
+
+
+Run 11: 4146650400 ns. 
+Run 11: 4 seconds. 
+
+
+Finished in 56410717400 ns. 
+Finished in 56 seconds. 
