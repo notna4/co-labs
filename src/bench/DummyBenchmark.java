@@ -9,12 +9,12 @@ public class DummyBenchmark implements IBenchmark {
 
     @Override
     public void run() {
-        Arrays.sort(arr);
-//        try {
-//            Thread.sleep(2000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
+//        Arrays.sort(arr);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 //        for(int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i] + ", ");
 //        }
@@ -41,6 +41,11 @@ public class DummyBenchmark implements IBenchmark {
 
     @Override
     public void cancel() {
+
+    }
+
+    @Override
+    public void warmup() {
 
     }
 }

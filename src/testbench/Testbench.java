@@ -34,11 +34,11 @@ public class Testbench {
 
         //testing pause and resume using a loop
         ITimer timer = new Timer();
-////        ILogger log = new ConsoleLogger();
-        ILogger log = new FileLogger();
+        ILogger log = new ConsoleLogger();
+//        ILogger log = new FileLogger();
         IBenchmark bench = new DummyBenchmark();
 //        log.write("starting...");
-        final int workload = 100000000;
+        final int workload = 1000000;
         for(int i = 0; i < 12; ++i) {
             bench.initialize(workload);
             timer.resume();
@@ -46,10 +46,12 @@ public class Testbench {
             long time = timer.pause();
             log.write("Run " + i + ":", time, "ns");
             log.write("Run " + i + ":", time, "s");
+            log.write("Run " + i + ":", time, "milli");
             log.write("\n");
         }
         log.write("Finished in", timer.stop(), "ns");
         log.write("Finished in", timer.stop(), "s");
+        log.write("Finished in", timer.stop(), "milli");
         log.close();
     }
 }

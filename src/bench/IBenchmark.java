@@ -7,4 +7,6 @@ public interface IBenchmark {
 
     void clean();
     void cancel();
+
+    void warmup();
 }

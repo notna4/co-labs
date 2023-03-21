@@ -26,6 +26,17 @@ public class ConsoleLogger implements ILogger {
             }
             System.out.println("micros.");
         }
+        else if(values[values.length-1] == "milli") {
+            for(int i = 0; i < values.length-1; i++) {
+                if(values[i].getClass().getName() == "java.lang.Long") {
+                    System.out.print(convertNanoTo("milli", (Long)values[i]) + " ");
+                }
+                else {
+                    System.out.print(values[i] + " ");
+                }
+            }
+            System.out.println("milli.");
+        }
         else if(values[values.length-1] == "s") {
             for(int i = 0; i < values.length-1; i++) {
                 if(values[i].getClass().getName() == "java.lang.Long") {
@@ -49,6 +60,9 @@ public class ConsoleLogger implements ILogger {
     public long convertNanoTo(String dest, long nano) {
         if(dest == "micros") {
             return nano/1000;
+        }
+        else if(dest == "milli") {
+            return nano/1000000;
         }
         else if(dest == "s") {
             return nano/1000000000;

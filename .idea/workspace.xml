@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ae72f4-ac44-40d1-948b-37856fd0bcdc" name="Changes" comment="init">
+    <list default="true" id="f1ae72f4-ac44-40d1-948b-37856fd0bcdc" name="Changes" comment="added results folder">
+      <change afterPath="$PROJECT_DIR$/src/bench/CPUFixedPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bench/cpu/CPUDigitsOfPi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testbench/TestCPUDigitsOfPi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/DummyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/DummyBenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/IBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/IBenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logging/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/FileLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/ILogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ILogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testbench/Testbench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/Testbench.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timing/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timing/Timer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,11 @@
       <workItem from="1678098348129" duration="3913000" />
       <workItem from="1678177666821" duration="6169000" />
       <workItem from="1678283113358" duration="41000" />
-      <workItem from="1678643260658" duration="4162000" />
+      <workItem from="1678643260658" duration="4350000" />
+      <workItem from="1678782236927" duration="2313000" />
+      <workItem from="1678794807414" duration="5240000" />
+      <workItem from="1679138609074" duration="10753000" />
+      <workItem from="1679395148200" duration="6728000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1678101461740</created>
@@ -73,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678101461740</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lab2 - converting timeunits">
+      <created>1678647515495</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678647515495</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added results folder">
+      <created>1678647642497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678647642497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +102,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="lab2 - converting timeunits" />
+    <MESSAGE value="added results folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added results folder" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

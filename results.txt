@@ -118,3 +118,65 @@ Run 11: 4 seconds.
 
 Finished in 56410717400 ns. 
 Finished in 56 seconds. 
+Run 0: 6126628800 ns. 
+Run 0: 6 seconds. 
+ 
+
+
+Run 1: 5327956800 ns. 
+Run 1: 5 seconds. 
+ 
+
+
+Run 2: 6310518200 ns. 
+Run 2: 6 seconds. 
+ 
+
+
+Run 3: 7038053600 ns. 
+Run 3: 7 seconds. 
+ 
+
+
+Run 4: 6786849500 ns. 
+Run 4: 6 seconds. 
+ 
+
+
+Run 5: 6300701000 ns. 
+Run 5: 6 seconds. 
+ 
+
+
+Run 6: 6673885800 ns. 
+Run 6: 6 seconds. 
+ 
+
+
+Run 7: 6037013400 ns. 
+Run 7: 6 seconds. 
+ 
+
+
+Run 8: 6719636800 ns. 
+Run 8: 6 seconds. 
+ 
+
+
+Run 9: 5526892700 ns. 
+Run 9: 5 seconds. 
+ 
+
+
+Run 10: 5625268900 ns. 
+Run 10: 5 seconds. 
+ 
+
+
+Run 11: 6164603700 ns. 
+Run 11: 6 seconds. 
+ 
+
+
+Finished in 80802806200 ns. 
+Finished in 80 seconds. 
