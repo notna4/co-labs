@@ -8,6 +8,16 @@ public class DummyBenchmark implements IBenchmark {
     private int[] arr;
 
     @Override
+    public void initialize(Object... params) {
+
+    }
+
+    @Override
+    public void warmUp() {
+
+    }
+
+    @Override
     public void run() {
 //        Arrays.sort(arr);
         try {

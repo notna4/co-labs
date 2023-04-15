@@ -29,6 +29,16 @@ public class CPUDigitsOfPi implements IBenchmark {
 }
 
     @Override
+    public void initialize(Object... params) {
+
+    }
+
+    @Override
+    public void warmUp() {
+
+    }
+
+    @Override
     public void run()  {
         computePi(this.range);
     }

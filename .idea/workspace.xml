@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ae72f4-ac44-40d1-948b-37856fd0bcdc" name="Changes" comment="added results folder">
-      <change afterPath="$PROJECT_DIR$/src/bench/CPUFixedPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bench/cpu/CPUDigitsOfPi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testbench/TestCPUDigitsOfPi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" afterDir="false" />
+    <list default="true" id="f1ae72f4-ac44-40d1-948b-37856fd0bcdc" name="Changes" comment="cpu fixed point">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bench/CPURecursionLoopUnrolling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testbench/TestCPUThreadedRoots.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/CPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/CPUFixedPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/DummyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/DummyBenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/IBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/IBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/FileLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/Testbench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/Testbench.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUDigitsOfPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/cpu/CPUDigitsOfPi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,6 +73,12 @@
       <workItem from="1678794807414" duration="5240000" />
       <workItem from="1679138609074" duration="10753000" />
       <workItem from="1679395148200" duration="6728000" />
+      <workItem from="1679428805388" duration="271000" />
+      <workItem from="1679990622671" duration="15794000" />
+      <workItem from="1680524876002" duration="800000" />
+      <workItem from="1680582304730" duration="8934000" />
+      <workItem from="1680758001491" duration="585000" />
+      <workItem from="1681579551209" duration="7749000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1678101461740</created>
@@ -94,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678647642497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cpu fixed point">
+      <created>1679428861681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679428861681</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +118,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="lab2 - converting timeunits" />
     <MESSAGE value="added results folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added results folder" />
+    <MESSAGE value="cpu fixed point" />
+    <option name="LAST_COMMIT_MESSAGE" value="cpu fixed point" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -112,6 +127,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="6" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="18" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
